@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echo Chamber Breaker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 20px;
+    }
+    #status {
+      font-size: 16px;
+      color: #333;
+    }
+    #bias, #confidence, #leftFlags, #rightFlags, #violenceFlags, #abuseFlags, #extremismFlags {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Bias Detection</h3>
+  <div id="status">Checking bias...</div>
+  <div id="bias">Bias Detected: N/A</div>
+  <div id="confidence">Confidence: N/A</div>
+  <div id="leftFlags">Left Flags: N/A</div>
+  <div id="rightFlags">Right Flags: N/A</div>
+  <div id="violenceFlags">Violence: N/A</div>
+  <div id="abuseFlags">Abuse: N/A</div>
+  <div id="extremismFlags">Extremism: N/A</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
