@@ -25,3 +25,27 @@ React.js · Chrome Extension APIs · Firebase · OpenAI API · BERT · Perspecti
    npm install
 ```
 3. Add your API keys in a `.env` file
+   OPENAI_API_KEY=your_key_here
+   PERSPECTIVE_API_KEY=your_key_here
+
+4. Build the extension
+```bash
+   npm run build
+```
+5. Open Chrome → `chrome://extensions` → Enable Developer Mode → Load Unpacked → select the `dist/` folder
+
+## Hackathon
+
+Top 10 finalist out of 200+ teams at [Hackathon Name], 2024.
+
+## Roadmap
+
+- [ ] Express.js backend API for server-side scoring
+- [ ] PostgreSQL storage for user history and badge tracking
+- [ ] Dashboard showing your bias trend over time
+- [ ] Firefox support
+
+## License
+
+MIT
+
